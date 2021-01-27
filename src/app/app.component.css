@@ -1,0 +1,447 @@
+ .moon{
+     z-index:200;
+ }
+ .button ul{
+    
+    background-color: transparent;
+    box-shadow: 0 2px 10px black,
+    inset 0 0 10px black;
+}
+
+.btn-group .dropdown-menu button{
+    margin: auto;
+    display:block;
+    outline:none;
+    width:100%;
+    border:1px solid black;
+    box-shadow:  0 0 5px black,inset 0 0 5px black;
+}
+
+.btn-group .dropdown-menu button:hover{
+    box-shadow: inset 0 0 10px black;
+ 
+}
+@media (max-width:1144px) and (min-width:878px){
+    .text-area{
+       position:absolute;
+       top:10px;
+       left:30%;
+    }
+    h1{
+        width:250px;
+    }
+}
+@media (max-width:972px) and (min-width:877px){
+    .btn-group > button{
+        position: absolute;
+        
+       
+    }
+    .btn-group ul{
+        position: absolute;
+        /* top: -188px; */
+        top:36px;
+        /* right: 100px; */
+    }
+}
+@media(max-width:337px) and (min-width:0px){
+    .text-area{
+        top: 12px;
+        position: absolute;
+        margin-left: 80%;
+    }
+    h1{
+        font-size:2em;
+        width: 200px;
+    }
+    .wrapper1{
+        min-height: 350px;
+        max-width: 14em;
+        top: 30%;
+       
+        
+    }
+    .gif1{
+        display:none;
+    }
+    .wrapper{
+        min-width: 190px;
+        min-height:30px;
+    }
+    .btn-group > button{
+        position: absolute;
+        top: -128px;
+        right: 1px;
+       
+    }
+    .btn-group ul{
+        position: absolute;
+        /* top: -188px; */
+        right: 100px;
+    }
+}
+@media(max-width:423px) and (min-width:337px){
+    .text-area{
+        top: 12px;
+        position: absolute;
+        margin-left: 75%;
+    }
+    h1{
+        width: 250px;
+    }
+    .wrapper1{
+        min-height: 350px;
+        max-width: 20em;
+        top: 30%;
+        
+        
+    }
+    .gif1{
+        display:none;
+    }
+    .wrapper{
+        min-width: 230px;
+        min-height:20px;
+    }
+    .btn-group > button{
+        position: absolute;
+        top: -128px;
+        right: 1px;
+       
+    }
+    .btn-group ul{
+        position: absolute;
+        top: -93px;
+        /* right: 100px; */
+        left:-120px;
+    }
+
+}
+@media(max-width:585px) and (min-width:423px){
+    .text-area{
+        top: 12px;
+        position: absolute;
+        margin-left: 60%;
+    }
+    h1{
+        width: 250px;
+    }
+    
+    .wrapper1{
+        min-height: 350px;
+        max-width: 27em;
+        top: 30%;
+        
+        
+    }
+    .gif1{
+        display:none;
+    }
+    .wrapper{
+        min-width: 300px;
+        min-height:40px;
+    }
+    .btn-group > button{
+        position: absolute;
+        top: -188px;
+        /* right: 1px; */
+       
+    }
+    .btn-group ul{
+        position: absolute;
+        top: -153px;
+        right: 100px;
+    }
+
+
+}
+@media (max-width:728px) and (min-width:585px){
+    .text-area{
+        top: 12px;
+        position: absolute;
+        margin-left: 55%;
+    }
+    h1{
+        width: 250px;
+    }
+    .wrapper1{
+        min-height: 400px;
+        top: 30%;
+    }
+    .btn-group >button{
+        position: absolute;
+        top: -188px;
+        right: 10px;
+       
+    }
+    .btn-group ul{
+        position: absolute;
+        top: -153px;
+        /* right: 100px; */
+        left: -120px
+    }
+
+}
+@media (max-width:877px) and (min-width:728px){
+    .text-area{
+        top: 12px;
+        position: absolute;
+        margin-left: 35%;
+    }
+    h1{
+        width: 250px;
+    }
+   
+    .btn-group > button{
+        position: absolute;
+        top: -188px;
+        border:none;
+        right: 100px;
+       
+    }
+    .btn-group ul{
+        position: absolute;
+        top: -153px;
+        left: -220px;
+    }
+    .wrapper1{
+        min-height: 400px;
+        top: 30%;
+    }
+}
+
+
+.main{
+    
+    border-radius: 12px;
+    height:100vh;
+    
+    background:url('../Images/background.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+
+.weatherWidgetRow{
+    /* border:2px solid red; */
+    display: inline-block;
+    /* border:2px solid red; */
+    margin-left: 30px;
+    margin-top:12px;
+    /* font-weight: 500; */
+}
+
+
+
+
+
+.wrap{
+    
+    width:130px;
+    margin-left:35%;
+    position: absolute;
+    top:16px;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.main{
+    border:2px solid black;
+}
+.button{
+    position:absolute;
+    right:25%;
+    top:35%;
+}
+
+
+.dropdown-menu button{
+   
+    /* padding:7px 10px; */
+    margin: 0;
+    padding: 0;
+    /* margin:0 0.3em 0.3em 0; */
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+    }
+    .dropdown-menu button:hover{
+    background-color:#4095c6;
+    }
+    /* @media all and (max-width:30em){
+     
+    } */
+
+h1{
+    /* border:2px solid red; */
+    position:absolute;
+    right:25%;
+    top:22%;
+    color:white;
+    display: block;
+ 
+   
+    font-weight: bold;
+}
+.first{
+    font-size: 25px;
+    font-weight: bolder;
+    color: aqua;
+}
+.text-area h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.weatherWidgetRow1{
+    position: absolute;
+    font-size:40px;
+    margin-top:8px
+}
+.weatherWidgetRow2{
+    position: absolute;
+    top: 70%; 
+    font-size: 18px;
+    left: 12px
+
+}
+.second{
+    font-size: 18px;
+}
+.third{
+    font-size: 16px;
+}
+#changing-text{
+    color:red;
+}
+.gifs{
+    box-shadow: 0 0 20px bisque;
+}
+.gif1{
+    /* border:3px solid red; */
+    box-shadow: 0 0 20px bisque;
+    height:200px;
+    width: 200px;
+    position:absolute;
+     right: 6px;
+     margin-top:10%; 
+    
+     /* background-image: url('https://media.giphy.com/media/vadsqiBwAM18c/giphy.gif'); */
+    
+     /* background-image: url('../Images/morning.webp'); */
+     /* background-image: url('../Images/night.webp'); */
+     /* background-repeat: no-repeat; */
+     /* background-size: 330px; */
+}
+.gif2{
+    /* border:3px solid red; */
+    box-shadow: 0 0 20px bisque;
+    width:30%;
+    height:200px;
+    position:absolute;
+     right:40px; 
+     margin-top:10%; 
+     border-radius: 13px;
+     /* background-image: url('https://media.giphy.com/media/vadsqiBwAM18c/giphy.gif'); */
+    
+     background-image: url('../Images/tenor.gif');
+     /* background-image: url('../Images/night.webp'); */
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+.gif3{
+    /* border:3px solid red; */
+    box-shadow: 0 0 20px bisque;
+    width:30%;
+    height:200px;
+    position:absolute;
+     right:40px; 
+     margin-top:10%; 
+     border-radius: 13px;
+     /* background-image: url('https://media.giphy.com/media/vadsqiBwAM18c/giphy.gif'); */
+    
+     background-image: url('../Images/night.webp');
+     /* background-image: url('../Images/night.webp'); */
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+
+.wrapper1{
+    position:relative;
+    display:flex;
+    border:3px solid black;
+   
+    margin-left: 5%;
+    margin-top: 10%;
+    display: block;
+    border-radius: 10px;
+    width: 40em;
+    height: 320px;
+    box-shadow: 0 0 30px black,inset 0 0 10px black;
+}
+.wrapper{
+    position:absolute;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: block;
+    border-radius: 10px; 
+    width: 45%;
+    /* border:2px solid red; */
+    height:80%;  
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(8,7,42,1) 75%, rgb(8, 10, 63) 100%);
+    /* background-image: url('https://media.giphy.com/media/vadsqiBwAM18c/giphy.gif'); */
+    box-shadow: 0 0 20px bisque;
+    color: white;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+   
+}
+.weatherWidgetRow1{
+    top: 40%;
+    left:14px;
+}
+
+.sun{
+    color: yellow;
+    filter: drop-shadow( 1px 1px 10px yellow);
+    font-size:40px;
+}
+.moon{
+    margin-top: 10px;
+    color: white;
+    filter: drop-shadow( 1px 1px 10px white);
+    font-size:80px;
+    z-index: 10;
+}
+
+/* .cloudDiv{
+    margin-top: -40px;
+} */
+
+/* .cloud{
+    font-size:50px;
+    
+    color: rgb(104, 175, 197);
+    filter: drop-shadow( 1px 1px 5px rgb(104, 175, 197));
+    animation-name: cloudMovement;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+} */
+
+/* @keyframes cloudMovement{
+    from{margin-left: -55px;}
+    to{margin-left: 65px;}
+} */

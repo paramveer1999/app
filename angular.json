@@ -30,7 +30,7 @@
 
               
             ],
-            "scripts": ["src/app/text.js"]
+            "scripts": ["src/fontawesome/all.js"]
           },
           "configurations": {
             "production": {
